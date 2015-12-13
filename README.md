@@ -16,10 +16,10 @@
     - or create/open some other file in that directory
   - write some code
 8. commit
-  - [tell git to rescan the directory(just in case)](/screenshots/4.png?raw=true Screenshot 4)
+  - [tell git to rescan the directory(**important**)](/screenshots/4.png?raw=true Screenshot 4)
   - [you should see Main.java and any other files you changed under "Unstaged Changes"](/screenshots/5.png?raw=true Screenshot 5)
   - [stage the changes 6](/screenshots/6.png?raw=true Screenshot 6)
-  - [write a commit message - a short description of what you changed/fixed/implemented/etc... and hit "commit"](/screenshots/7.png?raw=true Screenshot 7)
+  - [write a commit message(**required**) - a short description of what you changed/fixed/implemented/etc... and hit "commit"](/screenshots/7.png?raw=true Screenshot 7)
 9. test
   - if works go to step 10
   - othewise go back to step 7
