@@ -1,4 +1,6 @@
-# How to use git(hub) for the practice problems
+# UVA HSPC Practice Assignments
+
+## How to use git(hub) for the practice problems
 1. accept assignment, click link
   - at this point a repo will be created
 2. copy url of created repo
@@ -29,3 +31,8 @@
 That's it. You have uploaded your changes. If you want, you can repeat steps 7-10 as many times as you want.
 
 Step 1 needs to be done once per assignment. Steps 2-6 need to be done once per copy(although you should only need 1 copy).
+
+## Links
+### 2012
+- [Problem 00 - Roll Call](https://classroom.github.com/assignment-invitations/b08222aabc3638409cfc8d92a352bd22)
+- [Problem 00 - Grading Exams](https://classroom.github.com/assignment-invitations/b81654b8cec55fcea916b6357857bc44)
