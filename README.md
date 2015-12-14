@@ -33,6 +33,25 @@ That's it. You have uploaded your changes. If you want, you can repeat steps 7-1
 Step 1 needs to be done once per assignment. Steps 2-6 need to be done once per copy(although you should only need 1 copy).
 
 ## Links
+
+### 2011
+TODO
+
 ### 2012
 - [Problem 00 - Roll Call](https://classroom.github.com/assignment-invitations/b08222aabc3638409cfc8d92a352bd22)
-- [Problem 00 - Grading Exams](https://classroom.github.com/assignment-invitations/b81654b8cec55fcea916b6357857bc44)
+- [Problem 01 - Grading Exams](https://classroom.github.com/assignment-invitations/b81654b8cec55fcea916b6357857bc44)
+- [Problem 02 - Reducing Improper Fractions](https://classroom.github.com/assignment-invitations/9ef9992400336684bfb9f9ee64ebba21)
+- [Problem 03 - Ant Entrapment](https://classroom.github.com/assignment-invitations/1f1d655d9c8d599adec6af8008caeb40)
+- [Problem 04 - Math Tutoring](https://classroom.github.com/assignment-invitations/9b4315841636e717fc924d7ac3f6f07e)
+- [Problem 05 - Where’s the Rainbow](https://classroom.github.com/assignment-invitations/45c93dd06e66f00abf2865e728d1a9e0)
+- [Problem 06 - Painting Party](https://classroom.github.com/assignment-invitations/022b25818fb74f0abd8abaa6802751b6)
+- [Problem 07 - Back and Forth](https://classroom.github.com/assignment-invitations/b3de31cd16ef72cf814fb157d0fb3b7a)
+- [Problem 08 - Hoo’s Afraid of the Big Bad Wolf?](https://classroom.github.com/assignment-invitations/e7ccb193f496beb867d7738a36dfdf0f)
+- [Problem 09 - Canyon Crossing](https://classroom.github.com/assignment-invitations/2ce93bf725b362498f6ae2cc5ec3cf06)
+- [Problem 10 - Yahtzee](https://classroom.github.com/assignment-invitations/b375027870ae975077e11edb76924cd7)
+
+### 2013
+TODO
+
+### 2014
+TODO
