@@ -35,7 +35,16 @@ Step 1 needs to be done once per assignment. Steps 2-6 need to be done once per 
 ## Links
 
 ### 2011
-TODO
+- [Problem 00 - Hello Judge](https://classroom.github.com/assignment-invitations/6aa8f99176d144fb35a32aaa2bf308a2)
+- [Problem 01 - Geometric Inflation](https://classroom.github.com/assignment-invitations/d9d617794802fd98738e1db85dee930b)
+- [Problem 02 - Public Transit](https://classroom.github.com/assignment-invitations/68e2ebd2d75866b497623d2670f08fc3)
+- [Problem 03 - Password Validaion](https://classroom.github.com/assignment-invitations/83993787cf420e1f2444dfd69293624e)
+- [Problem 04 - Arithmetic and Geometric Sums](https://classroom.github.com/assignment-invitations/6010ae57e1c004920d2a409fbd0efb2d)
+- [Problem 05 - Robot in a Maze](https://classroom.github.com/assignment-invitations/aab00000b9ed012bc91b711a6301e74b)
+- [Problem 06 - Triangular Matrices](https://classroom.github.com/assignment-invitations/ea8b60c807800fa755b3941e6b9c2f77)
+- [Problem 07 - Integer Flipping](https://classroom.github.com/assignment-invitations/97b7116805965c319b8d2a5fb025f2a3)
+- [Problem 08 - Property Lines](https://classroom.github.com/assignment-invitations/f6a0f9285c8a5c8edc869e94376861f4)
+- [Problem 09 - Lifeboat Balancing](https://classroom.github.com/assignment-invitations/b562bced99c63b064b4469c361d9f8cd)
 
 ### 2012
 - [Problem 00 - Roll Call](https://classroom.github.com/assignment-invitations/b08222aabc3638409cfc8d92a352bd22)
