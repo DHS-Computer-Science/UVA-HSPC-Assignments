@@ -60,7 +60,16 @@ Step 1 needs to be done once per assignment. Steps 2-6 need to be done once per 
 - [Problem 10 - Yahtzee](https://classroom.github.com/assignment-invitations/b375027870ae975077e11edb76924cd7)
 
 ### 2013
-TODO
+- [Problem 00 - Dice](https://classroom.github.com/assignment-invitations/9cd7c1e5298f1f13718c07db7a37018f)
+- [Problem 01 - Gradabase](https://classroom.github.com/assignment-invitations/42cdc658c8f82711ff24dd1e83ce0626)
+- [Problem 02 - Jenga](https://classroom.github.com/assignment-invitations/d3470da7c7c5a6e98a72eb3b004ca364)
+- [Problem 03 - More Dice](https://classroom.github.com/assignment-invitations/e5c0adec31629a6e542a2e6492f4b40c)
+- [Problem 04 - Morse Code](https://classroom.github.com/assignment-invitations/e870c03ec53a57aa71f2b30c486b7286)
+- [Problem 05 - Tic Tac Toe For the Win](https://classroom.github.com/assignment-invitations/1b2396ba5b723fdf6820cf6017519a56)
+- [Problem 06 - Sudoku Solution Checker](https://classroom.github.com/assignment-invitations/886f33527ed8ca0e87b15d62154c316a)
+- [Problem 07 - Robot In A Room](https://classroom.github.com/assignment-invitations/23a8adfb1f7d455eaf73d66a4552faff)
+- [Problem 08 - Excellent Adventure](https://classroom.github.com/assignment-invitations/b6a36066d92b269c8daa1845828fff96)
+- [Problem 09 - Even More Dice](https://classroom.github.com/assignment-invitations/0bc6483c0a087315345ca3b32661e96d)
 
 ### 2014
 TODO
