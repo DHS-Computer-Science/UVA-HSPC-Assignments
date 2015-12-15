@@ -72,4 +72,27 @@ Step 1 needs to be done once per assignment. Steps 2-6 need to be done once per 
 - [Problem 09 - Even More Dice](https://classroom.github.com/assignment-invitations/0bc6483c0a087315345ca3b32661e96d)
 
 ### 2014
-TODO
+- [Problem 00 - Echo Chamber](https://classroom.github.com/assignment-invitations/09bb85714e1062333b5c7512d234acf6)
+- [Problem 01 - !terces poT](https://classroom.github.com/assignment-invitations/9777af2d38541196b08c0497fa463104)
+- [Problem 02 - Tons of Orcs, no Fibbin’](https://classroom.github.com/assignment-invitations/bf6e339aebc43b19eff94ef4f807ab2d)
+- [Problem 03 - Report Card Time](https://classroom.github.com/assignment-invitations/0f2687254f08fe3b0a657aeb076b0109)
+- [Problem 04 - A Serious Reading Problem](https://classroom.github.com/assignment-invitations/638870d35efe0b0e8d204c99c7fe04ce)
+- [Problem 05 - Safe Zone](https://classroom.github.com/assignment-invitations/a89e58d69ce48f9ad0465d4c0baac4a0)
+- [Problem 06 - Spawn of Ungoliant](https://classroom.github.com/assignment-invitations/530cb8579b6167019e481a9b8365e594)
+- [Problem 07 - The Big Eye in the Sky](https://classroom.github.com/assignment-invitations/592387b62620f6ede2a3c4ed877e09c0)
+- [Problem 08 - Gimli’s Gullet](https://classroom.github.com/assignment-invitations/562dcd0a60d331ac8a72afd20f0fc42f)
+- [Problem 09 - Tools of the Trade](https://classroom.github.com/assignment-invitations/81827495b2b4fa85c1cff4d05671825a)
+- [Problem 10 - The Magic Word](https://classroom.github.com/assignment-invitations/b7cf18447140edc5f68974bcf80e22b1)
+
+### 2015
+- [Problem 00 - Number Summation](https://classroom.github.com/assignment-invitations/8f5e05441fddadfd8e30db609bfefa63)
+- [Problem 01 - Storing Super Suits](https://classroom.github.com/assignment-invitations/9350a8e9e2fcb073a1dce203fb9715b0)
+- [Problem 02 - Fury’s Graffiti](https://classroom.github.com/assignment-invitations/ba3d87cba050fe82e804983178a788f5)
+- [Problem 03 - Encrypted Messages](https://classroom.github.com/assignment-invitations/334af46fd2ec1c1996e6ee5b6b93db03)
+- [Problem 04 - Mapping the Universe](https://classroom.github.com/assignment-invitations/9b5e1d55a540104a67045727c24bfdea)
+- [Problem 05 - You Wouldn’t Like Me When I’m Angry](https://classroom.github.com/assignment-invitations/ec0aeca0073a0577b85588b33921d691)
+- [Problem 06 - Arrow Addition](https://classroom.github.com/assignment-invitations/5eebf03d591b43d058bc84ba2d59147e)
+- [Problem 07 - Understanding the Internet](https://classroom.github.com/assignment-invitations/b77164165901507f640d60ecac021ffe)
+- [Problem 08 - Infiltrating the Enemy](https://classroom.github.com/assignment-invitations/dc2259cc893d3169d16412a13961f361)
+- [Problem 09 - How Much Longer?](https://classroom.github.com/assignment-invitations/67e782adfbdef21c6be88fcafc69f064)
+- [Problem 10 - Important Puzzles](https://classroom.github.com/assignment-invitations/bb1c1a7553df1655df702f1891fdc976)
