@@ -1,8 +1,8 @@
 # UVA HSPC Practice Assignments
 
 ## How to use git(hub) for the practice problems
-1. accept assignment, click link(**assignments can be found further down the page**)
-  - at this point a repo will be created
+1. accept assignment, click link(**assignment links can be found further down the page**)
+  - at this point a **new personalized(your own)** repo will be created
 2. copy url of created repo
 3. start the gui
 4. [select "clone existing repository"](/screenshots/1.png?raw=true Screenshot 1)
