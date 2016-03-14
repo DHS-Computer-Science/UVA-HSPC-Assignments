@@ -40,6 +40,13 @@ class Grader:
     False: didn't
   '''
   def compile(self):
+    mycmd = ['sed', '-i', 's/public class  {/public class Main {/',
+             os.path.join(self.main_class[0], self.main_class[1]+'.java')]
+    tester = subprocess.Popen(mycmd,          stdin=subprocess.PIPE,
+                              stdout=DEVNULL, stderr=subprocess.STDOUT)
+    while tester.poll() is None:
+      time.sleep(1)
+
     mycmd = ['javac',
              os.path.join(self.main_class[0], self.main_class[1]+'.java')]
     tester = subprocess.Popen(mycmd,          stdin=subprocess.PIPE,
