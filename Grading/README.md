@@ -12,5 +12,3 @@ CREATE TABLE `uva`.`practice` (
   `date` INT NULL,
   PRIMARY KEY (`id`));
 ```
-
-mysql -u dhs -ptitans -e "select name,problem,status from uva.practice; SELECT name,status,COUNT(status) from uva.practice GROUP BY name ORDER BY Status DESC" -t > uva_practice.txt
