@@ -27,13 +27,16 @@ conn = pymysql.connect(host='127.0.0.1', user='dhs', passwd='titans', db='uva')
 
 for repo in repos:
   match = re.search('uva-hspc-practice-(\\d{4}-\\d{2})-(.*)$', repo.name)
-  name = match.group(1)
-  user = g.search_users(match.group(2))[0]
+  name  = match.group(1)
+  user  = g.search_users(match.group(2))[0]
+  login = user.login
 
   if user.name:      #for the people that have a name
     user = user.name
   else:              #for those that do not
-    user = user.login
+    user = login
+
+  login = login.lower()
 
   print("{} - {}".format(name, user))
   lm = repo.get_commit('HEAD').last_modified
@@ -41,12 +44,18 @@ for repo in repos:
 
   cur = conn.cursor()
 
-  a = cur.execute("SELECT id,date,status FROM practice " \
-                  "WHERE name = '{}' AND problem = '{}';".format(user, name))
+  a = cur.execute("SELECT id,date,status,name FROM practice " \
+                  "WHERE login = '{}' AND problem = '{}';".format(login, name))
   for i in cur:
     sql_id   = i[0]
     sql_date = i[1]
     sql_stat = i[2]
+    sql_name = i[3]
+
+  if sql_name != name:
+    cur.execute("UPDATE practice SET name = '{}' WHERE id='{}';" \
+                .format(name, sql_id))
+    conn.commit()
 
   if a == 0 or (sql_stat != 'complete' and float(sql_date) < date):
     tmp_dir = tempfile.mkdtemp()
@@ -62,11 +71,12 @@ for repo in repos:
     print(message)
 
     if a == 0:
-      cur.execute("INSERT INTO practice (name, problem, status, date) " \
-                  "VALUES ('{}','{}','{}','{}')".format(user,name,message,date))
+      cur.execute("INSERT INTO practice (name, login, problem, status, date) " \
+                  "VALUES ('{}', '{}', '{}', '{}', '{}')"\
+                  .format(user, login, name, message, date))
     else:
       cur.execute("UPDATE practice SET status='{}', date='{}' WHERE id='{}';" \
-                                                .format(message, date, id))
+                                                .format(message, date, sql_id))
     shutil.rmtree(tmp_dir)
     conn.commit()
   else:
