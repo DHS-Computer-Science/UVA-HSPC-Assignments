@@ -1,3 +1,4 @@
 uva_practice.txt
 .auth
-__pycache__
+__pycache__/
+__pycache__/*
