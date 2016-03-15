@@ -79,6 +79,7 @@ for repo in repos:
       cur.execute("UPDATE practice SET status='{}', date='{}' WHERE id='{}';" \
                                                 .format(message, date, sql_id))
     shutil.rmtree(tmp_dir)
+    #print(tmp_dir)
     conn.commit()
   else:
     print('nothing to do')
