@@ -10,9 +10,11 @@ import os
 
 if os.path.exists('.auth'):
   with open('.auth', 'r') as f:
-    g  = Github(f.read())
+    g  = Github(*[i for i in f.read().splitlines() if i][:2])
 else:
   g    = Github()
+
+requests = g.rate_limiting
 
 dhs_cs = g.get_organization("DHS-Computer-Science")
 repos  = [i for i in dhs_cs.get_repos()
@@ -87,3 +89,11 @@ for repo in repos:
   print()
   cur.close()
 conn.close()
+
+time= datetime.datetime.fromtimestamp(g.rate_limiting_resettime).isoformat(' ')
+
+used       = requests[0] - g.rate_limiting[0]
+left,limit = g.rate_limiting
+
+print('Used {} api requests, {}/{} left, will reset at: {}'.format(
+          used,            left,limit,                 time))

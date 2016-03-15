@@ -35,6 +35,12 @@ CREATE TABLE `uva`.`practice` (
   - The generated tables will appear in `uva_practice.txt`
 
 ## Notes
+- the `.auth` file will allow you to authenticate yourself with github
+  - this means more total requests(60 vs 5000)
+  - two possible ways to use this:
+    1. one line containing your personal token
+      - https://help.github.com/articles/creating-an-access-token-for-command-line-use/
+    2. one like containing your username another containing your password
 - Be sure to have:
   - Code writen in the Main.java file
   - Test input and output in `in-out/judging.in` and `in-out/judging.out`
