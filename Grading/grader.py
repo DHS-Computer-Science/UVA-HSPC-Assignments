@@ -13,9 +13,10 @@ if os.path.exists('.auth'):
     g  = Github(f.read())
 else:
   g    = Github()
-dhs_cs = g.search_users("DHS-Computer-Science")[0]
+
+dhs_cs = g.get_organization("DHS-Computer-Science")
 repos  = [i for i in dhs_cs.get_repos()
-             if re.search("practice-\\d{4}-\\d{2}-.*", i.name)]
+             if re.search("practice-\\d{4}-\\d{2}-.*", i.name, re.I)]
 
 
 messages = ['not graded', 'complete', 'formatting error',
@@ -26,9 +27,9 @@ messages = ['not graded', 'complete', 'formatting error',
 conn = pymysql.connect(host='127.0.0.1', user='dhs', passwd='titans', db='uva')
 
 for repo in repos:
-  match = re.search('uva-hspc-practice-(\\d{4}-\\d{2})-(.*)$', repo.name)
+  match = re.search('uva-hspc-practice-(\\d{4}-\\d{2})-(.*)$', repo.name, re.I)
   name  = match.group(1)
-  user  = g.search_users(match.group(2))[0]
+  user  = g.get_user(match.group(2))
   login = user.login
 
   if user.name:      #for the people that have a name
@@ -52,9 +53,9 @@ for repo in repos:
     sql_stat = i[2]
     sql_name = i[3]
 
-  if sql_name != name:
+  if sql_name != user:
     cur.execute("UPDATE practice SET name = '{}' WHERE id='{}';" \
-                .format(name, sql_id))
+                .format(user, sql_id))
     conn.commit()
 
   if a == 0 or (sql_stat != 'complete' and float(sql_date) < date):
