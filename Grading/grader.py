@@ -28,20 +28,26 @@ messages = ['not graded', 'complete', 'formatting error',
 
 conn = pymysql.connect(host='127.0.0.1', user='dhs', passwd='titans', db='uva')
 
+users = {}
+
 for repo in repos:
   match = re.search('uva-hspc-practice-(\\d{4}-\\d{2})-(.*)$', repo.name, re.I)
+
   name  = match.group(1)
-  user  = g.get_user(match.group(2))
-  login = user.login
+  login = match.group(2).lower()
 
-  if user.name:      #for the people that have a name
-    user = user.name
-  else:              #for those that do not
-    user = login
+  if login not in users.keys():
+    tmp   = g.get_user(match.group(2))
+    user  = g.get_user(match.group(2)).name #for the people that have a name
 
-  login = login.lower()
+    if not user:                            #for those that do not
+      user = match.group(2)
 
-  print("{} - {}".format(name, user))
+    users[login.lower()] = user
+  else:
+    user = users[match.group(2).lower()]
+
+  print("{} - {}({})".format(name, user, match.group(2)))
   lm = repo.get_commit('HEAD').last_modified
   date = datetime.datetime.strptime(lm, '%a, %d %b %Y %H:%M:%S %Z').timestamp()
 
@@ -55,7 +61,7 @@ for repo in repos:
     sql_stat = i[2]
     sql_name = i[3]
 
-  if sql_name != user:
+  if a != 0 and sql_name != user:
     cur.execute("UPDATE practice SET name = '{}' WHERE id='{}';" \
                 .format(user, sql_id))
     conn.commit()
