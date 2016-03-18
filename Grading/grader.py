@@ -18,7 +18,7 @@ requests = g.rate_limiting
 
 dhs_cs = g.get_organization("DHS-Computer-Science")
 repos  = [i for i in dhs_cs.get_repos()
-             if re.search("practice-\\d{4}-\\d{2}-.*", i.name, re.I)]
+             if re.search("practice-\\d{4}-\\d{2}-.*", i.name, re.I)][::-1]
 
 
 messages = ['not graded', 'complete', 'formatting error',
